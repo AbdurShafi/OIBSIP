@@ -1,0 +1,135 @@
+@font-face{
+	font-family: poppins;
+	src: url('fonts/Poppins-Regular.ttf');	
+}
+@font-face{
+	font-family: Misologist;
+	src: url('fonts/Misologist-rgV6x.ttf');	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins, cursive, sans;
+	scroll-behavior: smooth;
+}
+h1{
+	font-size: 4rem;
+	font-weight: 700;
+}
+h2{
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+h3{
+	font-size: 2rem;
+	font-weight: 500;
+}
+h4{
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+h5{
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+h6{
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+p{
+	font-size: 1rem;
+	font-weight: 400;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+#viewarea{
+    position: relative;
+    height: calc(100vh - 20px);
+    text-align: center;
+}
+#bg{
+    background-image: url('temp-bg1.jpg');
+    height: calc(100vh - 20px);
+    filter: blur(4px);
+}
+#contents{
+    width: 60%;
+    margin: 0 20%;
+    position: absolute;
+    top: 0;
+}
+.title{
+    color: rgba(240, 191, 14, 0.979);
+    font-family: misologist;
+}
+#convert{
+    visibility: hidden;
+    width: 200px;
+    height: 40px;
+    margin: 0 40px;
+    text-align: center;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: black;
+}
+.sections{
+    text-align: center;
+    padding-top: 60px;
+}
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#flex select{
+    width: 200px;
+    height: 40px;
+    margin: 0 40px;
+    text-align: center;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: #e5ecaf;
+}
+#flex h6{
+    color: #fff;
+}
+.articles{
+    padding-top: 50px;
+}
+#temper{
+    width: 27%;
+    height: 40px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: #e1e9a6;
+}
+#result{
+    visibility: hidden;
+    height: 40px;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    width: 27%;
+    margin-left: 36%;
+    text-align: center;
+    background-color: #eebcfd;
+}
+footer{
+	height: 20px;
+	background-color: rgba(29, 29, 177, 0.123);
+}
+footer p{
+	text-align:center;
+	color: #000033;
+}

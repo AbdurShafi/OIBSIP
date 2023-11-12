@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="temperature.css">
+</head>
+<body>
+    <section id="viewarea">
+        <section id="bg"></section>
+        <section id="contents"><section class="sections">
+            <h1 class="title">Temperature Convertor</h3>
+            <article class="articles" id="flex">
+            <select name="unit1" id="fromUnit">
+                <option value="">Select</option>
+                <option value="Celcius">Celcius</option>
+                <option value="Farenheit">Farenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <h6>To</h6>
+            <select name="unit2" id="toUnit">
+                <option value="">Select</option>
+                <option value="Celcius">Celcius</option>
+                <option value="Farenheit">Farenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            </article>
+            <article class="articles"><input type="text" id="temper" placeholder="Enter"/></article>
+            
+            <article class="articles"><button id="convert">Convert</button></article>
+        </section>
+        <section class="sections">
+            <p id="result"></p>
+        </section></section>
+    </section>
+    <footer>
+        <p>Copyright 2023 &copy;  Designed by Abdur Rahman</p>
+    </footer>
+    <script src="temperature.js"></script>
+</body>
+</html>
